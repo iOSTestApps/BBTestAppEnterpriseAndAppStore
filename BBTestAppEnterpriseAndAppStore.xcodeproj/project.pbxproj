@@ -587,7 +587,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = ActionExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStore.ActionExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStoreEnterprise.ActionExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -598,7 +598,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = ActionExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStore.ActionExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStoreEnterprise.ActionExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -649,7 +649,7 @@
 				BUNDLE_IDENTIFIER_SUFFIX = Enterprise;
 				INFOPLIST_FILE = BBTestAppEnterpriseAndAppStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStoreEnterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Enterprise;
@@ -683,7 +683,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = ActionExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStore.ActionExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStoreEnterprise.ActionExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
