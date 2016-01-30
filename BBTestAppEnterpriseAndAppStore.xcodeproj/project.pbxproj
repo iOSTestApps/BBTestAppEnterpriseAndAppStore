@@ -527,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_IDENTIFIER_SUFFIX = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = BBTestAppEnterpriseAndAppStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStore;
@@ -550,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = BBTestAppEnterpriseAndAppStoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStoreTests;
@@ -573,6 +575,7 @@
 		833B36BD1BDD719C0062C00B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = BBTestAppEnterpriseAndAppStoreUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStoreUITests;
@@ -587,7 +590,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = ActionExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStoreEnterprise.ActionExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStore.ActionExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -596,9 +599,10 @@
 		833B36D01BDD71C70062C00B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = ActionExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStoreEnterprise.ActionExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppEnterpriseAndAppStore.ActionExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -710,6 +714,7 @@
 				833B36D31BDD75E20062C00B /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833B36B81BDD719C0062C00B /* Build configuration list for PBXNativeTarget "BBTestAppEnterpriseAndAppStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +724,7 @@
 				833B36D41BDD75E20062C00B /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833B36BB1BDD719C0062C00B /* Build configuration list for PBXNativeTarget "BBTestAppEnterpriseAndAppStoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +734,7 @@
 				833B36D51BDD75E20062C00B /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833B36CE1BDD71C70062C00B /* Build configuration list for PBXNativeTarget "ActionExtension" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +744,7 @@
 				833B36D61BDD75E20062C00B /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
